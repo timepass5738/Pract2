@@ -21,6 +21,6 @@ GPIO.output(led3,True)
 time.sleep(1)
 GPIO.output(led3,False)
 
-print(&#39;Blinking LED pattern&#39;)
+print('Blinking LED pattern')
 while True:
 pattern()
